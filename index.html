@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+<main id="main">
+   <header>
+      <h1 id="title">HELP US UNDERSTAND YOU!</h1>
+   </header>
+   <body>
+      <p id="description">This survey's objective is to collect information of our subscribers.</p>
+
+      <form action="#" id="survey-form">
+         <label for="name" id="name-label">Name:</label>
+         <input type= "text" name="name" id="name" required placeholder="Here goes your name"> <br>
+
+         <label for="email" id="email-label">e-mail:</label>
+         <input type="email" name="e-mail" id="email" required placeholder="Here goes your e-mail"><br>
+
+         <label for="number" id="number-label">ID number of the community</label>
+         <input type="number" name="id-number" id="number" min="3" max="7" placeholder="Here goes the id of your country"><br>
+         
+         <label for="dropdown">Country:</label>
+         <select name="country" id="dropdown">
+            <option value="peru">Perú</option>
+            <option value="argentina">Argentina</option>
+            <option value="chile">Chile</option>
+         </select><br>
+         <div id = "radio">
+            <label for="sex">Sex:</label> <br>
+            <label for="male">Male</label>
+            <input type="radio" name="sex" id="male" value="radio-button">
+            <label for="female">Female</label>
+            <input type="radio" name="sex" id="female" value="radio-button"><br>
+         </div>
+         
+         <div id="radio-1">
+            <label for="studies">Studies:</label>
+            <label for="school">School</label>
+            <input type="radio" name="studies" id="school" value="radio-button">
+            <label for="college">College</label>
+            <input type="radio" name="studies" id="college" value="radio-button">
+            <label for="bachellor">Bachellor</label>
+            <input type="radio" name="studies" id="bachellor"value="radio-button"><br>
+         </div>
+
+         <div id="checkbox">
+            <label for="opinion">Which of this options describe your experience in our web?</label>
+            <label for="bad">Bad experience</label>
+            <input type="checkbox" name="opinion" id="bad" value="checkbox-button">
+            <label for="good">Good experience</label>
+            <input type="checkbox" name="opinion" id="good" value="checkbox-button">
+            <label for="excelent">Excelent experiencie</label>
+            <input type="checkbox" name="opinion" id="excelent" value="checkbox-button"><br>
+         </div>
+
+         <label for="comment">Comments:</label>
+         <textarea name="comment" id="comment" cols="30" rows="10">Please, introduce any comment you want to give us.</textarea><br>
+         <label for="submit">Submit</label>
+         <input type="submit" name="submit" id="submit">
+      </form>
+   </body>
+   <footer>
+      <h3>Survey Made by Enrique Palomino</h3>
+   </footer>
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</main>
+</html>

@@ -1,0 +1,58 @@
+h1 {
+   text-align: center;
+}
+
+main {
+   width: 90%;
+   height: 400px;
+   margin: 50px 150px 0 150px;
+   
+}
+
+#title {
+   font-size: 1.5em;
+   width: 90%;
+   height: 50px;
+   margin: 10px;
+   padding: 5px;
+   text-align: center;
+}
+
+#description {
+   font-size: 1.1em;
+   width: 90%;
+   height: 50px;
+   margin: 20px;
+   padding: 10px;
+   text-align: center;
+}
+
+#survey-form {
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   height: 400px;
+   margin: 10px;
+}
+
+#radio {
+   margin: 0 0 5px ;
+   display: flex;
+   flex-direction: row;
+}
+
+#radio-1 {
+   margin: 0 0 5px;
+   display: flex;
+   flex-direction: row;
+}
+
+#checkbox {
+   margin: 0 0 5px;
+   display: flex;
+   flex-direction: row;
+}
+
+footer {
+   font-size: 0.8em;
+}
